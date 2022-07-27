@@ -1,6 +1,3 @@
-
-
-
 #our-story {
     display: flex; 
     justify-content: space-between; 
@@ -38,3 +35,9 @@
     padding: 5px, 5px, 5px, 5px;
 
 }
+
+#backgimg1 {
+    background-image: url("\photoshop\design-assets\bgk-middle.png");
+    background-color: red;
+    height: 200px;
+  }
