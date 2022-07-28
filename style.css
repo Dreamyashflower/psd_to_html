@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 #our-story {
     display: flex; 
     justify-content: space-between; 
@@ -36,10 +40,15 @@
 
 }
 
+#video{
+    width: 100%;
+    height: 600px;
+}
+
 #backgimg1 {
-    background-image: url("\photoshop\design-assets\bgk-middle.png");
-    background-color: red;
-    height: 200px;
+    background-image: url("./photoshop/design-assets/bgk-middle.png") ;
+    height: 600px;
+    width: 100%;
   }
 
 #navbar{
@@ -68,5 +77,12 @@
 
 #header{
     background-image: url("./photoshop/design-assets/bgk-header.png");
+}
+
+footer{
+    background-image: url("./photoshop/design-assets/bgk-footer.png");
+    height: 400px;
+    width: 100%;
+
 }
 
