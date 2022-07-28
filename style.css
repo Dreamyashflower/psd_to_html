@@ -50,3 +50,10 @@ body{
     height: 600px;
     width: 100%;
   }
+
+footer{
+    background-image: url("./photoshop/design-assets/bgk-footer.png");
+    height: 400px;
+    width: 100%;
+
+}
