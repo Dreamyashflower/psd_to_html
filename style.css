@@ -25,6 +25,10 @@
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .button {
     color: rgb(109, 220, 209);
     border: 1px solid rgb(109, 220, 209);
@@ -40,4 +44,53 @@
     background-image: url("\photoshop\design-assets\bgk-middle.png");
     background-color: red;
     height: 200px;
+  }
+
+#expertise {
+    padding: 0 auto;
+    text-align: center; 
+
+  }
+
+  div .grid {
+    margin-top: 40px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  .grid-item {
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+  .left-item {
+    border-bottom: 1px solid rgba(110, 110, 110, 0.521);
+  }
+
+  .middle-item {
+    border-bottom: 1px solid rgba(110, 110, 110, 0.521);
+    border-left: 1px solid rgba(110, 110, 110, 0.521);
+    border-right: 1px solid rgba(110, 110, 110, 0.521);
+
+  }
+
+  .right-item {
+    border-bottom: 1px solid rgba(110, 110, 110, 0.521)
+
+  }
+
+  .bottom-item {
+    border-left: 1px solid rgba(110, 110, 110, 0.521);
+    border-right: 1px solid rgba(110, 110, 110, 0.521);
+  }
+
+ .divider {
+    width: 50px;
+    border-top: 3px solid rgba(110, 110, 110, 0.521);
+    margin: 0 auto;
   }
