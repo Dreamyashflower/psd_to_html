@@ -41,3 +41,32 @@
     background-color: red;
     height: 200px;
   }
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    
+   
+  }
+
+#nav-items{
+      display:flex;
+      gap: 20px;
+      
+  }
+
+  .nav-items{
+      color: aliceblue;
+  }
+  .introduction{
+      color: aliceblue;
+      padding: 50px;
+  }
+  
+
+#header{
+    background-image: url("./photoshop/design-assets/bgk-header.png");
+}
+
