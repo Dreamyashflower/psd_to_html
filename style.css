@@ -162,7 +162,8 @@ color:aqua;
 
 }
 .secondary{
-color:aliceblue; 
+color:aliceblue;
+padding: 0px 8px 0px 0px; 
 }
 a{
 text-decoration: none;
@@ -371,6 +372,7 @@ footer {
 
 #sectionsummer{
   width: 80%;
+   
 }
 
 #sectionlemmy{
