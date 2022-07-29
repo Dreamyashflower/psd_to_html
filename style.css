@@ -167,8 +167,9 @@ a {
 
 }
 
-.secondary {
-  color: aliceblue;
+.secondary{
+color:aliceblue;
+padding: 0px 8px 0px 0px; 
 }
 
 a {
@@ -385,6 +386,7 @@ footer {
 
 #sectionsummer {
   width: 80%;
+   
 }
 
 #sectionlemmy {
