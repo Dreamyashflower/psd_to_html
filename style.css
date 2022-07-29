@@ -173,8 +173,9 @@ text-transform: uppercase;
 }
 
 .brands{
-  height: 40px;
-  width: 80px;
+  height: 45px;
+  width: 120px;
+  flex-direction: column;
   -ms-flex-direction: column;
   margin: 25px;
  
@@ -382,4 +383,9 @@ align-items:center;
 .wrapper .youtube:hover .tooltip::before {
   background-color: #de463b;
   color: #ffffff;
+}
+
+.footerflex{
+  display: flex;
+  
 }
